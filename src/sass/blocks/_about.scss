@@ -1,5 +1,4 @@
 .about {
-    background: url('../img/about_bg.jpg') center (center/cover) no-repeat;
     padding-top: 130px;
     padding-bottom: 185px;
     &__grid {
@@ -20,7 +19,7 @@
         margin-bottom: 10px;
     }
     .divider {
-        margin-top: 0;
+        margin: 0;
         margin-bottom: 20px;
     }
     &__descr {
