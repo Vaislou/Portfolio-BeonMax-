@@ -1,0 +1,89 @@
+.contacts {
+    padding: 120px 0 90px 0;
+    &__grid {
+        padding: 0 35px 0 52px;
+        display: grid;
+        grid-template-columns: 400px 585px;
+        justify-content: space-between;
+    }
+    &__photo {
+        img {
+            width: 100%;
+        }
+    }
+    &__descr {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #FFFFFF;
+        .divider {
+            margin: 0;
+        }
+    }
+    &__title {
+        position: relative;
+        @include before_circle;
+        padding-left: 10px;
+    }
+    &__text, &__social {
+        margin-top: 20px;
+    }
+    &__link {
+        margin-right: 25px;
+        img {
+            max-width: 30px;
+            max-height: 30px;
+        }
+    }
+    &__form {
+        margin-top: 30px;
+        display: grid;
+        grid-template: 45px 190px 45px / repeat(2, 280px);
+        justify-content: space-between;
+        row-gap: 30px;
+        label {
+            display: block;
+            position: absolute;
+            top: -10px;
+            left: 12px;
+            height: 18px;
+            padding: 0 8px;
+            font-size: 12px;
+            margin-bottom: 0;
+            background-color: #02639d;
+        }
+    }
+    &__input {
+        position: relative;
+        input {
+            width: 100%;
+            height: 100%;
+            padding: 0 20px;
+            font-size: 12px;
+            font-weight: 500;
+            background-color: inherit;
+            border: 1px solid #FFFFFF;
+        }
+    }
+    &__textarea {
+        position: relative;
+        grid-column: 1 / 3;
+        textarea {
+            width: 100%;
+            height: 100%;
+            resize: none;
+            padding: 20px;
+            font-size: 12px;
+            font-weight: 500;
+            background-color: inherit;
+            border: 1px solid #FFFFFF;
+        }
+    }
+    &__btn {
+        border: none;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 700;
+        color: #FFFFFF;
+    }
+}
