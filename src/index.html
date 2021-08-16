@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio by Alexey Kanapatskiy (for BeonMax)</title>
     <!-- Primary Meta Tags -->
     <title>Я - Алексей Конопацкий, и это - мое портфолио</title>
     <meta name="title" content="Я - Алексей Конопацкий, и это - мое портфолио">
@@ -161,7 +160,7 @@
                             <div class="about__subgrid-text">
                                 <div class="about__subgrid-title">Разработка приложений</div>
                                 <div class="about__subgrid-descr">
-                                    Адаптирую веб-приложения под мобильные устройства <br> (IOS, Android).
+                                    Адаптирую веб-приложения под мобильные устройства (IOS, Android).
                                 </div>
                             </div>
                         </div>
@@ -182,7 +181,7 @@
         </div>
     </section>
 
-    <section class="resume">
+    <!-- <section class="resume">
         <div class="container">
             <h2 class="title title_fz16 title__section-title">Опыт</h2>
             <div class="title title_fz36 title__section-subtitle">Чем я буду полезен</div>
@@ -257,9 +256,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="skills">
+    <!-- <section class="skills">
         <div class="container">
             <h2 class="title title_fz16 title__section-title">Навыки</h2>
             <div class="title title_fz36 title__section-subtitle">Что я использую в работе</div>
@@ -379,9 +378,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="portfolio">
+    <!-- <section class="portfolio">
         <div class="container">
             <h2 class="title title_fz16 title__section-title">Портфолио</h2>
             <div class="title title_fz36 title__section-subtitle">Мои работы</div>
@@ -408,9 +407,9 @@
                 </a>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="price">
+    <!-- <section class="price">
         <div class="container">
             <h2 class="title title_fz16 title__section-title">Прайс-лист</h2>
             <div class="divider"></div>
@@ -474,9 +473,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="contacts">
+    <!-- <section class="contacts">
         <div class="container">
             <div class="contacts__grid">
                 <div class="contacts__photo">
@@ -508,11 +507,11 @@
 
                     <form action="#" class="contacts__form">
                         <div class="contacts__input">
-                            <input name="name" id="name" type="text">
+                            <input required name="name" id="name" type="text">
                             <label for="name">Ваше имя</label>
                         </div>
                         <div class="contacts__input">
-                            <input name="email" id="email" type="email">
+                            <input required name="email" id="email" type="email">
                             <label for="email">Ваша почта</label>
                         </div>
 
@@ -520,12 +519,18 @@
                             <textarea name="text" id="text"></textarea>
                             <label for="text">Ваше сообщение</label>
                         </div>
-                        <div><button class="contacts__btn btn">Отправить сообщение</button></div>
+                        <div class="contacts__triggers">
+                            <button class="contacts__btn btn">Отправить сообщение</button>
+                            <div class="contacts__policy">
+                                <input required type="checkbox">
+                                <span>Я согласен(а) с <a href="/policy.html" target="_blank">политикой конфиденциальности</a></span>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <script src="js/script.js"></script>
 </body>
